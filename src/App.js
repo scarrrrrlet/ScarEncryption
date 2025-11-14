@@ -82,7 +82,7 @@ export default function EncryptionTool() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/background.jpg)',
+          backgroundImage: `url(${process.env.PUBLIC_URL}/background.jpg)`,
         }}
       />
 
@@ -96,7 +96,7 @@ export default function EncryptionTool() {
             <Shield className="w-10 h-10 text-purple-300" />
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-2 neon-text">
-            Secure Vault
+            ScarEncryption
           </h1>
           <p className="text-purple-300 text-sm tracking-wider uppercase">AES-256 Encryption • Zero Knowledge</p>
         </div>
