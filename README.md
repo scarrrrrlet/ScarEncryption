@@ -36,7 +36,7 @@ This project was redesigned with a modern tech stack to offer a fast, reliable, 
 
 Check out the live version of the tool hosted on GitHub Pages:
 
-**[https://scarrrrrlet.github.io/String-Encryption-and-Decryption/](https://scarrrrrlet.github.io/String-Encryption-and-Decryption/)**
+**[ScarEncryption](https://scarrrrrlet.github.io/ScarEncryption/)**
 
 ---
 
@@ -65,12 +65,12 @@ To get a local copy up and running, follow these simple steps.
 
 1.  **Clone the repository:**
 ```sh
-    git clone https://github.com/scarrrrrlet/String-Encryption-and-Decryption.git
+    git clone https://github.com/scarrrrrlet/ScarEncryption.git
 ```
 
 2.  **Navigate to the project directory:**
 ```sh
-    cd String-Encryption-and-Decryption
+    cd ScarEncryption
 ```
 
 3.  **Install dependencies:**
