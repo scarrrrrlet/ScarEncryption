@@ -8,16 +8,16 @@ export default function EncryptionTool() {
   const [result, setResult] = useState('');
   const [errors, setErrors] = useState({ text: false, key: false });
   const [copied, setCopied] = useState(false);
-  const [activeMode, setActiveMode] = useState(null);
+  // const [activeMode, setActiveMode] = useState(null);
 
-  const base64Regex = /^[A-Za-z0-9+\/]+={0,3}$/;
+  const base64Regex = /^[A-Za-z0-9+/]+={0,3}$/;
 
   const clearError = (field) => {
     setErrors(prev => ({ ...prev, [field]: false }));
   };
 
   const encryptText = () => {
-    setActiveMode('encrypt');
+    // setActiveMode('encrypt');
     const newErrors = { text: !textInput, key: !secretKey };
     setErrors(newErrors);
     
@@ -35,7 +35,7 @@ export default function EncryptionTool() {
   };
 
   const decryptText = () => {
-    setActiveMode('decrypt');
+    // setActiveMode('decrypt');
     const trimmedText = textInput.trim();
     const newErrors = { text: !trimmedText, key: !secretKey };
     setErrors(newErrors);
