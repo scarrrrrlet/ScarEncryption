@@ -1,27 +1,34 @@
-<h1 align="center">Secure Vault - Text Encryption Tool</h1>
+<h1 align="center">ScarEncryption - Text Encryption Tool</h1>
 
 <p align="center">
-  A sleek, modern, and secure client-side tool to encrypt and decrypt text using the AES standard.
+  A sleek, modern, and secure client-side tool to encrypt and decrypt text using the AES-256 standard.
 </p>
 
 ---
 
-
 ## About The Project
 
-**Secure Vault** provides a simple yet powerful interface for encrypting and decrypting sensitive text directly in your browser. Built with modern web technologies, it ensures that your data remains private, as all operations are performed on the client-side. Nothing is ever sent to a server.
+**ScarEncryption** provides a beautiful and powerful interface for encrypting and decrypting sensitive text directly in your browser. Built with React and modern web technologies, it ensures that your data remains completely private, as all operations are performed on the client-side. Nothing is ever sent to a server.
 
-This project was created to offer a fast, reliable, and aesthetically pleasing tool for anyone needing to quickly secure messages, notes, or any piece of text with a password.
+This project was redesigned with a modern tech stack to offer a fast, reliable, and visually stunning tool for anyone needing to quickly secure messages, notes, or any piece of text with a password.
 
 ---
 
 ## ✨ Features
 
-- **AES Encryption:** Utilizes the industry-standard **Advanced Encryption Standard (AES)** via CryptoJS for robust security.
+- **AES-256 Encryption:** Utilizes the industry-standard **Advanced Encryption Standard (AES)** via CryptoJS for robust security.
 - **Client-Side Operations:** All encryption and decryption processes happen locally in your browser. Your data and keys are never stored or transmitted.
-- **Modern & Responsive UI:** A sleek, dark-themed interface inspired by modern design trends, ensuring a great user experience on all devices.
+- **Modern UI/UX:** 
+  - Glassmorphism design with gradient accents
+  - Smooth animations and transitions
+  - Animated background effects
+  - Responsive design that works beautifully on all devices
+- **Interactive Feedback:** 
+  - Real-time error validation
+  - One-click copy to clipboard
+  - Visual feedback on all actions
 - **Easy to Use:** A straightforward interface—just type your text, enter a key, and click to encrypt or decrypt.
-- **No Dependencies:** Runs entirely with HTML, CSS, and JavaScript. No backend or complex setup is required.
+- **Zero Server Dependency:** Runs entirely in your browser with no backend required.
 
 ---
 
@@ -35,12 +42,13 @@ Check out the live version of the tool hosted on GitHub Pages:
 
 ## 🛠️ Tech Stack
 
-This project is built with a minimal and efficient stack:
+This project is built with modern web technologies:
 
-- **HTML5:** For the core structure and content.
-- **CSS3:** For all styling, layout, and modern aesthetics.
-- **JavaScript (ES6):** For the application logic and interactivity.
-- **[CryptoJS](https://github.com/brix/crypto-js):** A powerful library for handling the AES encryption and decryption logic.
+- **React 18:** For building the interactive user interface
+- **Tailwind CSS:** For modern, utility-first styling
+- **Lucide React:** For beautiful, consistent icons
+- **CryptoJS:** A powerful library for handling the AES encryption and decryption logic
+- **JavaScript (ES6+):** For application logic and interactivity
 
 ---
 
@@ -50,20 +58,52 @@ To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 
-All you need is a modern web browser.
+- **Node.js** (version 14 or higher)
+- **npm** or **yarn** package manager
 
 ### Installation
 
 1.  **Clone the repository:**
-    ```sh
+```sh
     git clone https://github.com/scarrrrrlet/String-Encryption-and-Decryption.git
-    ```
+```
+
 2.  **Navigate to the project directory:**
-    ```sh
+```sh
     cd String-Encryption-and-Decryption
-    ```
-3.  **Open `index.html`:**
-    Simply open the `index.html` file in your favorite web browser, and the application will be ready to use.
+```
+
+3.  **Install dependencies:**
+```sh
+    npm install
+```
+
+4.  **Run the development server:**
+```sh
+    npm start
+```
+    
+    The application will open automatically in your browser at `http://localhost:3000`
+
+### Building for Production
+
+To create an optimized production build:
+```sh
+npm run build
+```
+
+The build files will be generated in the `build/` directory.
+
+
+---
+
+## 🔒 Security Note
+
+All encryption and decryption operations are performed entirely in your browser using client-side JavaScript. Your plaintext, encrypted data, and secret keys never leave your device. However, remember:
+
+- Choose strong, unique secret keys
+- This tool is for convenience, not for protecting highly sensitive data
+- For maximum security, use established encryption software for critical data
 
 ---
 
@@ -73,7 +113,16 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
+## 🙏 Acknowledgments
+
+- Original design and concept by Scarlet Witch
+- Modernized with React and Tailwind CSS
+- Icons by [Lucide](https://lucide.dev)
+- Encryption by [CryptoJS](https://github.com/brix/crypto-js)
+
+---
+
 <p align="center">
   <br>
-  Made with ❤️ by Scarlet
+  Made with ❤️ by Scarlet Witch
 </p>
