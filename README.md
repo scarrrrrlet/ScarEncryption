@@ -36,7 +36,7 @@ This project was redesigned with a modern tech stack to offer a fast, reliable, 
 
 Check out the live version of the tool hosted on GitHub Pages:
 
-**[ScarEncryption/](https://scarrrrrlet.github.io/ScarEncryption/)**
+**[ScarEncryption](https://scarrrrrlet.github.io/ScarEncryption/)**
 
 ---
 
