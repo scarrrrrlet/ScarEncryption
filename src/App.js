@@ -82,8 +82,7 @@ export default function EncryptionTool() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/background.jpg)',
-          filter: 'brightness(0.3)'
+          backgroundImage: 'url(/background.jpg)'
         }}
       />
       
